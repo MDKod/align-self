@@ -1,0 +1,22 @@
+style{
+    width: 220px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    align-items: flex-start;
+
+}
+
+#main{
+    width: 220px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    align-items: stretch;
+}
+#main div{
+    flex:1;
+}
+#myBlueDiv{
+    align-self: center;
+}
